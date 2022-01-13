@@ -1,40 +1,89 @@
 
 
 def sort(p: list) -> list:
-    pass
+    swap = 0
+    i = 0
+    index = 0
+    index1 = -1
+    min = p[i]
+    for i in range (len(a)):
+      while true :
+         if p[index] < min:
+             swap = min
+             min = p[i]
+             p[index1] = min
+             print ('2')
+      else :
+            continue
+      if len(p) == i :
+          print(p)
+          break
+    index1 = index1 + 1
+
 
 
 def find(p: list, i) -> int:
-    pass
+    i = 0
+    while i < len(p):
+        if p[i] == self._pattern[0]:
+            j = 0
+            while j < len(self._pattern):
+                if p[i + j] == self._pattern[j]:
+                    j += 1
+                else:
+                    break
 
 
 def my_min(p: list) -> int:
-    pass
+    min = p[0]
+    for i in p:
+        if i < min:
+            min=i
+    return min
 
 
 def my_max(p: list) -> int:
-    pass
-
+    max = p[0]
+    for i in p:
+        if i > max:
+            max = i
+    return max
 
 def my_sum(p: list) -> int:
-    pass
+    i = 0 
+    for number in p:
+        i += number
+    print(i)
 
 
 def revert(p: list) -> list:
-    pass
+    fun = ''
+    for i in range(len(p)-1):
+        fun+=p[i]
+    return fun
+print(fun)
 
 
 def unique(p: list) -> list:
-    pass
+    unique_numbers =[]
+    fun = set(p)
+    for number in fun:
+        unique_numbers.append(p)
+    return unique_numbers
 
 
 def capitalize(s: str) -> str:
-    pass
+    s.lower()  
+    for word in s.split():
+        if word.istitle()== False:
+            word = word[0].upper() + word[1:]
+        s +="".join(word)
+    return s
+
 
 
 def lower(s: str) -> str:
-    pass
-
+   print(s.casefold()) 
 
 def upper(s: str) -> str:
     pass
